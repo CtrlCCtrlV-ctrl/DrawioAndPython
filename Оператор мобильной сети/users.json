@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "administrator",
+      "created": "2024-01-01",
+      "phone": ""
+    },
+    {
+      "username": "operator1",
+      "password": "operator",
+      "role": "operator",
+      "created": "2024-01-01",
+      "phone": ""
+    },
+    {
+      "username": "client1",
+      "password": "1234",
+      "role": "client",
+      "created": "2024-01-01",
+      "phone": "+79001111111"
+    }
+  ]
+}

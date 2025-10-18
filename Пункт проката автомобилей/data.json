@@ -1,0 +1,76 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "price_per_day": 3500,
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Accord",
+      "year": 2021,
+      "price_per_day": 3200,
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2023,
+      "price_per_day": 7500,
+      "status": "rented"
+    },
+    {
+      "id": 4,
+      "brand": "Mercedes",
+      "model": "E-Class",
+      "year": 2022,
+      "price_per_day": 6800,
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "year": 2021,
+      "price_per_day": 2800,
+      "status": "available"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Иванов Иван",
+      "phone": "+7900-123-45-67",
+      "passport": "1234 567890"
+    },
+    {
+      "id": 2,
+      "name": "Петров Петр",
+      "phone": "+7900-987-65-43",
+      "passport": "9876 543210"
+    },
+    {
+      "id": 3,
+      "name": "Сидорова Мария",
+      "phone": "+7900-555-01-23",
+      "passport": "5555 012345"
+    }
+  ],
+  "rentals": [
+    {
+      "id": 1,
+      "car_id": 3,
+      "client_id": 1,
+      "start_date": "2024-01-15",
+      "end_date": "2024-01-20",
+      "total_price": 37500,
+      "status": "active"
+    }
+  ],
+  "bookings": []
+}

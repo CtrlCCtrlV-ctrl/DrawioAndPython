@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "full_name": "Администратор системы",
+      "created": "2024-10-17 10:00:00"
+    },
+    {
+      "id": 2,
+      "username": "seller",
+      "password": "seller123",
+      "role": "seller",
+      "full_name": "Продавец Иванов И.И.",
+      "created": "2024-10-17 10:00:00"
+    },
+    {
+      "id": 3,
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "full_name": "Клиент Петров П.П.",
+      "created": "2024-10-17 10:00:00"
+    }
+  ]
+}

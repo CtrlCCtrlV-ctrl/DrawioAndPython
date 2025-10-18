@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01",
+      "full_name": "Администратор Системы"
+    },
+    {
+      "username": "seller",
+      "password": "seller123",
+      "role": "seller",
+      "created": "2024-01-01",
+      "full_name": "Продавец Иванов"
+    },
+    {
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "created": "2024-01-01",
+      "full_name": "Клиент Петров"
+    },
+    {
+      "username": "client2",
+      "password": "client123",
+      "role": "client",
+      "created": "2024-01-02",
+      "full_name": "Клиент Сидоров"
+    }
+  ]
+}

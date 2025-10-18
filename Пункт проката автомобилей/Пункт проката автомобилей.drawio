@@ -1,0 +1,176 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Пункт проката автомобилей" id="car-rental-usecase">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Система -->
+        <mxCell id="system-1" value="Система проката автомобилей" style="swimlane;startSize=30;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="600" height="740" as="geometry" />
+        </mxCell>
+        
+        <!-- Актер: Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Актер: Менеджер -->
+        <mxCell id="actor-manager" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Актер: Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Use Cases для Администратора -->
+        <mxCell id="uc-auth" value="Авторизация в системе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="40" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-users" value="Управление пользователями" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-cars" value="Управление автопарком" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="400" y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-reports" value="Просмотр отчетов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-backup" value="Резервное копирование" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="400" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Use Cases для Менеджера -->
+        <mxCell id="uc-register-client" value="Регистрация клиента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="40" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-rental" value="Оформление аренды" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-return-car" value="Оформление возврата" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="400" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-check-availability" value="Проверка доступности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-calculate-price" value="Расчет стоимости" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="400" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Use Cases для Клиента -->
+        <mxCell id="uc-view-cars" value="Просмотр автомобилей" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="40" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-book-car" value="Бронирование авто" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-history" value="История аренды" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="400" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-cancel-booking" value="Отмена бронирования" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="system-1">
+          <mxGeometry x="220" y="580" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Связи для Администратора -->
+        <mxCell id="link-admin-auth" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-admin" target="uc-auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-users" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-cars" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-admin" target="uc-manage-cars">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-reports" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-admin" target="uc-view-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-backup" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-admin" target="uc-backup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Связи для Менеджера -->
+        <mxCell id="link-manager-auth" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-manager" target="uc-auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-manager-register" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-manager" target="uc-register-client">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-manager-rental" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-manager" target="uc-create-rental">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-manager-return" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-manager" target="uc-return-car">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-manager-check" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-manager" target="uc-check-availability">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Связи для Клиента -->
+        <mxCell id="link-client-auth" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-client" target="uc-auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-view" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-client" target="uc-view-cars">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-book" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-client" target="uc-book-car">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-history" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-client" target="uc-view-history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-cancel" style="endArrow=none;html=1;" edge="1" parent="1" source="actor-client" target="uc-cancel-booking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Include связи -->
+        <mxCell id="include-1" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="uc-create-rental" target="uc-check-availability">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-label-1" value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="include-1">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include-2" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="uc-create-rental" target="uc-calculate-price">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include-label-2" value="&lt;&lt;include&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="include-2">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Extend связи -->
+        <mxCell id="extend-1" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="uc-cancel-booking" target="uc-book-car">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="extend-label-1" value="&lt;&lt;extend&gt;&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="extend-1">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

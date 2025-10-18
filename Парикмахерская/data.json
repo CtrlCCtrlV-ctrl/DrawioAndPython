@@ -1,0 +1,128 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Стрижка женская",
+      "description": "Классическая женская стрижка",
+      "price": 1500,
+      "duration": 60
+    },
+    {
+      "id": 2,
+      "name": "Стрижка мужская",
+      "description": "Классическая мужская стрижка",
+      "price": 800,
+      "duration": 30
+    },
+    {
+      "id": 3,
+      "name": "Окрашивание",
+      "description": "Полное окрашивание волос",
+      "price": 3500,
+      "duration": 120
+    },
+    {
+      "id": 4,
+      "name": "Укладка",
+      "description": "Праздничная укладка",
+      "price": 1200,
+      "duration": 45
+    },
+    {
+      "id": 5,
+      "name": "Маникюр",
+      "description": "Классический маникюр",
+      "price": 1000,
+      "duration": 45
+    },
+    {
+      "id": 6,
+      "name": "Педикюр",
+      "description": "Классический педикюр",
+      "price": 1200,
+      "duration": 60
+    },
+    {
+      "id": 7,
+      "name": "Тестовая услуга",
+      "description": "Описание тестовой услуги",
+      "price": 1000,
+      "duration": 30
+    }
+  ],
+  "masters": [
+    {
+      "id": 1,
+      "name": "Иванова Мария",
+      "specialization": "Универсал",
+      "phone": "+7-900-111-2233"
+    },
+    {
+      "id": 2,
+      "name": "Петрова Анна",
+      "specialization": "Колорист",
+      "phone": "+7-900-222-3344"
+    },
+    {
+      "id": 3,
+      "name": "Смирнов Алексей",
+      "specialization": "Стилист",
+      "phone": "+7-900-333-4455"
+    },
+    {
+      "id": 4,
+      "name": "Тестовый Мастер",
+      "specialization": "Тестовая специализация",
+      "phone": "+7-900-000-0000"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Петров Иван",
+      "phone": "+7-900-555-6677",
+      "email": "petrov@mail.ru"
+    },
+    {
+      "id": 2,
+      "name": "Сидорова Ольга",
+      "phone": "+7-900-666-7788",
+      "email": "sidorova@mail.ru"
+    },
+    {
+      "id": 3,
+      "name": "Козлов Дмитрий",
+      "phone": "+7-900-777-8899",
+      "email": "kozlov@mail.ru"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "master_id": 1,
+      "service_id": 2,
+      "date": "2024-01-20",
+      "time": "10:00",
+      "status": "Запланирована"
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "master_id": 2,
+      "service_id": 3,
+      "date": "2024-01-21",
+      "time": "14:00",
+      "status": "Запланирована"
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "master_id": 3,
+      "service_id": 1,
+      "date": "2024-01-22",
+      "time": "09:00",
+      "status": "Выполнена"
+    }
+  ]
+}

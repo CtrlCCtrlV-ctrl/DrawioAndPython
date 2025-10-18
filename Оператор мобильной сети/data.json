@@ -1,0 +1,139 @@
+{
+  "tariffs": [
+    {
+      "id": 1,
+      "name": "Базовый",
+      "price": 300,
+      "minutes": 200,
+      "internet": 5,
+      "sms": 50,
+      "description": "Базовый тариф для повседневного использования"
+    },
+    {
+      "id": 2,
+      "name": "Премиум",
+      "price": 600,
+      "minutes": 500,
+      "internet": 20,
+      "sms": 100,
+      "description": "Премиальный тариф с большим объемом услуг"
+    },
+    {
+      "id": 3,
+      "name": "Безлимитный",
+      "price": 1000,
+      "minutes": "unlimited",
+      "internet": "unlimited",
+      "sms": "unlimited",
+      "description": "Полностью безлимитный тариф"
+    },
+    {
+      "id": 4,
+      "name": "Супер тариф",
+      "price": 500,
+      "minutes": 1000,
+      "internet": 50,
+      "sms": 500,
+      "description": "Тестовый тариф"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "phone": "+79001111111",
+      "name": "Иванов Иван Иванович",
+      "tariff_id": 1,
+      "balance": 250.5,
+      "status": "active",
+      "registered": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "phone": "+79002222222",
+      "name": "Петрова Мария Сергеевна",
+      "tariff_id": 2,
+      "balance": 450.0,
+      "status": "active",
+      "registered": "2024-02-20"
+    },
+    {
+      "id": 3,
+      "phone": "+79003333333",
+      "name": "Сидоров Алексей Петрович",
+      "tariff_id": 3,
+      "balance": 0.0,
+      "status": "blocked",
+      "registered": "2024-03-10"
+    },
+    {
+      "id": 4,
+      "phone": "+79005555555",
+      "name": "Новый Клиент",
+      "tariff_id": 1,
+      "balance": 1000.0,
+      "status": "active",
+      "registered": "2024-03-01"
+    }
+  ],
+  "call_history": [
+    {
+      "phone": "+79001111111",
+      "date": "2024-10-15 10:30:00",
+      "type": "outgoing",
+      "number": "+79009999999",
+      "duration": 5
+    },
+    {
+      "phone": "+79001111111",
+      "date": "2024-10-15 14:20:00",
+      "type": "incoming",
+      "number": "+79008888888",
+      "duration": 3
+    },
+    {
+      "phone": "+79002222222",
+      "date": "2024-10-16 09:15:00",
+      "type": "outgoing",
+      "number": "+79007777777",
+      "duration": 12
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "phone": "+79001111111",
+      "type": "change_tariff",
+      "new_tariff_id": 2,
+      "status": "pending",
+      "date": "2024-10-16 16:00"
+    },
+    {
+      "id": 2,
+      "phone": "+79002222222",
+      "type": "change_tariff",
+      "new_tariff_id": 3,
+      "status": "pending",
+      "date": "2024-10-17 11:30"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Роуминг",
+      "price": 50,
+      "description": "Услуга международного роуминга"
+    },
+    {
+      "id": 2,
+      "name": "Голосовая почта",
+      "price": 30,
+      "description": "Услуга голосовой почты"
+    },
+    {
+      "id": 3,
+      "name": "Антивирус",
+      "price": 100,
+      "description": "Антивирусная защита для мобильного устройства"
+    }
+  ]
+}

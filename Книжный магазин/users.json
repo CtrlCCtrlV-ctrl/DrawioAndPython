@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "full_name": "Администратор",
+      "created": "2025-01-01 00:00:00"
+    },
+    {
+      "id": 2,
+      "username": "seller",
+      "password": "seller123",
+      "role": "seller",
+      "full_name": "Продавец Иванов",
+      "created": "2025-01-01 00:00:00"
+    },
+    {
+      "id": 3,
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "full_name": "Клиент Петров",
+      "created": "2025-01-01 00:00:00"
+    },
+    {
+      "id": 4,
+      "username": "testuser",
+      "password": "testpass",
+      "role": "client",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-01-10 09:15:00"
+    }
+  ]
+}

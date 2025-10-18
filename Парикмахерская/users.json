@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01 10:00:00",
+      "full_name": "Администратор Системы"
+    },
+    {
+      "username": "master1",
+      "password": "master123",
+      "role": "master",
+      "created": "2024-01-01 10:00:00",
+      "full_name": "Иванова Мария",
+      "master_id": 1
+    },
+    {
+      "username": "master2",
+      "password": "master123",
+      "role": "master",
+      "created": "2024-01-01 10:00:00",
+      "full_name": "Петрова Анна",
+      "master_id": 2
+    },
+    {
+      "username": "client1",
+      "password": "client123",
+      "role": "client",
+      "created": "2024-01-01 10:00:00",
+      "full_name": "Петров Иван",
+      "client_id": 1
+    },
+    {
+      "username": "client2",
+      "password": "client123",
+      "role": "client",
+      "created": "2024-01-01 10:00:00",
+      "full_name": "Сидорова Ольга",
+      "client_id": 2
+    }
+  ]
+}

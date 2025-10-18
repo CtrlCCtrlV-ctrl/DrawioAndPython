@@ -1,0 +1,124 @@
+{
+  "categories": [
+    "Электроника",
+    "Одежда",
+    "Книги",
+    "Продукты"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук ASUS",
+      "category": "Электроника",
+      "price": 45000,
+      "seller": "seller1",
+      "stock": 5,
+      "description": "Современный ноутбук"
+    },
+    {
+      "id": 2,
+      "name": "Смартфон Samsung",
+      "category": "Электроника",
+      "price": 25000,
+      "seller": "seller1",
+      "stock": 10,
+      "description": "Смартфон с отличной камерой"
+    },
+    {
+      "id": 3,
+      "name": "Книга по Python",
+      "category": "Книги",
+      "price": 800,
+      "seller": "seller1",
+      "stock": 15,
+      "description": "Учебник по программированию"
+    },
+    {
+      "id": 4,
+      "name": "Тестовый товар",
+      "category": "Электроника",
+      "price": 1500,
+      "seller": "seller1",
+      "stock": 10,
+      "description": "Товар для тестирования"
+    },
+    {
+      "id": 5,
+      "name": "Тестовый товар",
+      "category": "Электроника",
+      "price": 1000,
+      "seller": "seller1",
+      "stock": 10,
+      "description": "Товар для тестирования"
+    },
+    {
+      "id": 6,
+      "name": "Тестовый товар",
+      "category": "Электроника",
+      "price": 1000,
+      "seller": "seller1",
+      "stock": 10,
+      "description": "Товар для тестирования"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "buyer": "buyer1",
+      "seller": "seller1",
+      "product_name": "Ноутбук ASUS",
+      "product_id": 1,
+      "quantity": 1,
+      "total": 45000,
+      "status": "Новый",
+      "date": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 2,
+      "buyer": "buyer1",
+      "seller": "seller1",
+      "product_name": "Тестовый товар",
+      "product_id": 4,
+      "quantity": 2,
+      "total": 3000,
+      "status": "Обработан",
+      "date": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 3,
+      "buyer": "buyer1",
+      "seller": "seller1",
+      "product_name": "Тестовый товар",
+      "product_id": 4,
+      "quantity": 2,
+      "total": 3000,
+      "status": "Новый",
+      "date": "2024-01-01 12:00:00"
+    },
+    {
+      "id": 4,
+      "buyer": "buyer1",
+      "seller": "seller1",
+      "product_name": "Тестовый товар",
+      "product_id": 4,
+      "quantity": 2,
+      "total": 3000,
+      "status": "Новый",
+      "date": "2024-01-01 12:00:00"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "buyer": "buyer1",
+      "product_id": 1,
+      "product_name": "Ноутбук ASUS",
+      "rating": 5,
+      "text": "Отличный ноутбук!",
+      "date": "2024-01-01 13:00:00"
+    }
+  ],
+  "cart": {
+    "buyer1": []
+  }
+}

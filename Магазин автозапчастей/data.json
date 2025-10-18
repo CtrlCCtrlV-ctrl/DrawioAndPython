@@ -1,0 +1,75 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "name": "Масляный фильтр Mann W712/73",
+      "article": "W712/73",
+      "manufacturer": "Mann",
+      "category": "Фильтры",
+      "price": 450.0,
+      "quantity": 23,
+      "supplier_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Тормозные колодки Brembo P85020",
+      "article": "P85020",
+      "manufacturer": "Brembo",
+      "category": "Тормозная система",
+      "price": 2500.0,
+      "quantity": 14,
+      "supplier_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Аккумулятор Varta Blue Dynamic 60Ah",
+      "article": "D59",
+      "manufacturer": "Varta",
+      "category": "Электрика",
+      "price": 5200.0,
+      "quantity": 8,
+      "supplier_id": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "client_id": 3,
+      "items": [
+        {
+          "id": 1,
+          "name": "Тестовый товар 1",
+          "price": 100.0,
+          "quantity": 2,
+          "total": 200.0
+        },
+        {
+          "id": 2,
+          "name": "Тестовый товар 2",
+          "price": 200.0,
+          "quantity": 1,
+          "total": 200.0
+        }
+      ],
+      "total": 400.0,
+      "status": "Новый",
+      "created": "2025-10-18 02:07:10",
+      "seller_id": 2
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "ООО ПартсПоставка",
+      "contact": "+7-495-123-45-67",
+      "address": "г. Москва, ул. Складская, 10"
+    },
+    {
+      "id": 2,
+      "name": "АвтоДеталь Плюс",
+      "contact": "+7-495-987-65-43",
+      "address": "г. Москва, пр-т Автозаводский, 5"
+    }
+  ],
+  "clients": []
+}

@@ -1,0 +1,78 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Борщ",
+      "category": "Первое",
+      "price": 250,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Стейк",
+      "category": "Второе",
+      "price": 850,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Салат Цезарь",
+      "category": "Салаты",
+      "price": 350,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Тирамису",
+      "category": "Десерты",
+      "price": 300,
+      "available": true
+    }
+  ],
+  "tables": [
+    {
+      "id": 1,
+      "number": 1,
+      "seats": 4,
+      "status": "occupied"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "seats": 2,
+      "status": "free"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "seats": 6,
+      "status": "free"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "seats": 4,
+      "status": "free"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "waiter": "waiter1",
+      "table": 1,
+      "items": [
+        {
+          "name": "Борщ",
+          "qty": 2,
+          "price": 250
+        }
+      ],
+      "total": 500,
+      "status": "cooking",
+      "created": "2025-10-18 02:11:04"
+    }
+  ],
+  "next_order_id": 2,
+  "next_menu_id": 6,
+  "next_table_id": 5
+}

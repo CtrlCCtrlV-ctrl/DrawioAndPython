@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Ресторан" id="restaurant-use-case-2024">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Информационная система Ресторан" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;verticalAlign=top;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="620" height="720" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Официант -->
+        <mxCell id="actor-waiter" value="Официант" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        <mxCell id="uc-manage-users" value="Управление&#xa;пользователями" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-menu" value="Управление&#xa;меню" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-stats" value="Просмотр&#xa;статистики" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-tables" value="Управление&#xa;столиками" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-all-orders" value="Просмотр всех&#xa;заказов" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ ОФИЦИАНТА -->
+        <mxCell id="uc-view-menu" value="Просмотр&#xa;меню" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-order" value="Создание&#xa;заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-my-orders" value="Просмотр&#xa;моих заказов" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-change-status" value="Изменение&#xa;статуса заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-waiter-tables" value="Управление&#xa;столиками" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ КЛИЕНТА -->
+        <mxCell id="uc-client-menu" value="Просмотр&#xa;меню" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-client-order" value="Создание&#xa;заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-client-my-orders" value="Просмотр&#xa;моих заказов" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- ДОПОЛНИТЕЛЬНЫЕ USE CASES -->
+        <mxCell id="uc-login" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="720" y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-select-dish" value="Выбор блюда" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-calc-total" value="Расчет суммы&#xa;заказа" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОРА -->
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-menu" edge="1" parent="1" source="actor-admin" target="uc-manage-menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-stats" edge="1" parent="1" source="actor-admin" target="uc-view-stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-tables" edge="1" parent="1" source="actor-admin" target="uc-manage-tables">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-orders" edge="1" parent="1" source="actor-admin" target="uc-view-all-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ ОФИЦИАНТА -->
+        <mxCell id="link-waiter-menu" edge="1" parent="1" source="actor-waiter" target="uc-view-menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-waiter-create" edge="1" parent="1" source="actor-waiter" target="uc-create-order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-waiter-view" edge="1" parent="1" source="actor-waiter" target="uc-view-my-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-waiter-status" edge="1" parent="1" source="actor-waiter" target="uc-change-status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-waiter-tables" edge="1" parent="1" source="actor-waiter" target="uc-waiter-tables">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ КЛИЕНТА -->
+        <mxCell id="link-client-menu" edge="1" parent="1" source="actor-client" target="uc-client-menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-order" edge="1" parent="1" source="actor-client" target="uc-client-order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-view" edge="1" parent="1" source="actor-client" target="uc-client-my-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include-login-users" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-manage-users" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include-create-select" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-create-order" target="uc-select-dish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include-create-calc" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-create-order" target="uc-calc-total">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include-client-order-select" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-client-order" target="uc-select-dish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include-client-order-calc" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-client-order" target="uc-calc-total">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ EXTEND -->
+        <mxCell id="extend-stats-orders" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;fontSize=10;" edge="1" parent="1" source="uc-view-all-orders" target="uc-view-stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

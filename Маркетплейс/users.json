@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01 10:00:00",
+      "email": "admin@marketplace.com"
+    },
+    {
+      "username": "seller1",
+      "password": "seller123",
+      "role": "seller",
+      "created": "2024-01-01 10:00:00",
+      "email": "seller1@marketplace.com"
+    },
+    {
+      "username": "buyer1",
+      "password": "buyer123",
+      "role": "buyer",
+      "created": "2024-01-01 10:00:00",
+      "email": "buyer1@marketplace.com"
+    }
+  ]
+}
