@@ -1,0 +1,131 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "number": "SU100",
+      "from": "Москва",
+      "to": "Санкт-Петербург",
+      "departure": "10:00",
+      "arrival": "11:30",
+      "status": "По расписанию",
+      "gate": "A1"
+    },
+    {
+      "id": 2,
+      "number": "AZ200",
+      "from": "Москва",
+      "to": "Сочи",
+      "departure": "14:00",
+      "arrival": "16:30",
+      "status": "По расписанию",
+      "gate": "B2"
+    },
+    {
+      "id": 3,
+      "number": "UT300",
+      "from": "Москва",
+      "to": "Казань",
+      "departure": "18:00",
+      "arrival": "19:20",
+      "status": "По расписанию",
+      "gate": "C3"
+    },
+    {
+      "id": 4,
+      "number": "TEST001",
+      "from": "Тестовый город 1",
+      "to": "Тестовый город 2",
+      "departure": "12:00",
+      "arrival": "14:00",
+      "status": "Задерживается",
+      "gate": "T1"
+    },
+    {
+      "id": 5,
+      "number": "TEST001",
+      "from": "Тестовый город 1",
+      "to": "Тестовый город 2",
+      "departure": "12:00",
+      "arrival": "14:00",
+      "status": "По расписанию",
+      "gate": "T1"
+    },
+    {
+      "id": 6,
+      "number": "TEST001",
+      "from": "Тестовый город 1",
+      "to": "Тестовый город 2",
+      "departure": "12:00",
+      "arrival": "14:00",
+      "status": "По расписанию",
+      "gate": "T1"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "flight_number": "SU100",
+      "passenger_name": "Иванов Иван Иванович",
+      "passport": "1234 567890",
+      "seat": "1A",
+      "status": "Оплачен",
+      "user": "user"
+    },
+    {
+      "id": 2,
+      "flight_number": "AZ200",
+      "passenger_name": "Петров Петр Петрович",
+      "passport": "9876 543210",
+      "seat": "2B",
+      "status": "Зарегистрирован",
+      "user": "user"
+    },
+    {
+      "id": 3,
+      "flight_number": "SU100",
+      "passenger_name": "Тестовый Пассажир",
+      "passport": "1234 567890",
+      "seat": "99Z",
+      "status": "Зарегистрирован",
+      "user": "user"
+    },
+    {
+      "id": 4,
+      "flight_number": "SU100",
+      "passenger_name": "Тестовый Пассажир",
+      "passport": "1234 567890",
+      "seat": "99Z",
+      "status": "Зарегистрирован",
+      "user": "user"
+    },
+    {
+      "id": 5,
+      "flight_number": "SU100",
+      "passenger_name": "Тестовый Пассажир",
+      "passport": "1234 567890",
+      "seat": "99Z",
+      "status": "Зарегистрирован",
+      "user": "user"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Иванов И.И.",
+      "position": "Диспетчер",
+      "shift": "Дневная"
+    },
+    {
+      "id": 2,
+      "name": "Петров П.П.",
+      "position": "Администратор",
+      "shift": "Ночная"
+    },
+    {
+      "id": 3,
+      "name": "Сидоров С.С.",
+      "position": "Техник",
+      "shift": "Вечерняя"
+    }
+  ]
+}

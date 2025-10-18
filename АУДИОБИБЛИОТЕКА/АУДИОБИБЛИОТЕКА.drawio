@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Аудиобиблиотека" id="audiolib-usecase-001">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Система -->
+        <mxCell id="system-1" value="Аудиобиблиотека" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="600" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕР 1: Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕР 2: Библиотекарь -->
+        <mxCell id="actor-librarian" value="Библиотекарь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕР 3: Читатель -->
+        <mxCell id="actor-reader" value="Читатель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        <mxCell id="uc-manage-users" value="Управление&#xa;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-books" value="Управление&#xa;аудиокнигами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-authors" value="Управление&#xa;авторами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-stats" value="Просмотр&#xa;статистики" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-genres" value="Управление&#xa;жанрами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ БИБЛИ��ТЕКАРЯ -->
+        <mxCell id="uc-add-books" value="Добавление&#xa;аудиокниг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-edit-books" value="Редактирование&#xa;аудиокниг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-issue-books" value="Выдача книг&#xa;читателям" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-catalog" value="Поиск в&#xa;каталоге" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-authors-lib" value="Добавление&#xa;авторов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ ЧИТАТЕЛЯ -->
+        <mxCell id="uc-view-catalog" value="Просмотр&#xa;каталога" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-books" value="Поиск&#xa;аудиокниг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-book-reservation" value="Бронирование&#xa;аудиокниг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-reservations" value="Просмотр&#xa;бронирований" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-listen-samples" value="Прослушивание&#xa;образцов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- ОБЩИЕ USE CASES -->
+        <mxCell id="uc-login" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="660" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-logout" value="Выход" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="660" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОР -->
+        <mxCell id="link-admin-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-admin" target="uc-manage-books">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-3" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-admin" target="uc-manage-authors">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-4" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-admin" target="uc-view-stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-5" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-admin" target="uc-manage-genres">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ БИБЛИОТЕКАРЬ -->
+        <mxCell id="link-lib-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-librarian" target="uc-add-books">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-lib-2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-librarian" target="uc-edit-books">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-lib-3" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-librarian" target="uc-issue-books">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-lib-4" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-librarian" target="uc-search-catalog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-lib-5" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-librarian" target="uc-manage-authors-lib">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ ЧИТАТЕЛЬ -->
+        <mxCell id="link-reader-1" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-reader" target="uc-view-catalog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-reader-2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-reader" target="uc-search-books">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-reader-3" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-reader" target="uc-book-reservation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-reader-4" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-reader" target="uc-view-reservations">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-reader-5" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actor-reader" target="uc-listen-samples">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="uc-book-reservation" target="uc-login">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="uc-manage-users" target="uc-login">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗИ EXTEND -->
+        <mxCell id="extend-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="uc-listen-samples" target="uc-view-catalog">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="extend-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="uc-search-catalog" target="uc-manage-authors-lib">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

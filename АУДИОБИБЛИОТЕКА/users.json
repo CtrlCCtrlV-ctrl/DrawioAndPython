@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01",
+      "full_name": "Администратор Системы"
+    },
+    {
+      "username": "librarian",
+      "password": "lib123",
+      "role": "librarian",
+      "created": "2024-01-01",
+      "full_name": "Библиотекарь Иванов"
+    },
+    {
+      "username": "reader",
+      "password": "read123",
+      "role": "reader",
+      "created": "2024-01-01",
+      "full_name": "Читатель Петров"
+    },
+    {
+      "username": "test_user",
+      "password": "test123",
+      "role": "reader",
+      "created": "2025-10-18",
+      "full_name": "Тестовый Пользователь"
+    }
+  ]
+}

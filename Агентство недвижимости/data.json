@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "id": 2,
+      "type": "Дом"
+    }
+  ],
+  "deals": [
+    {
+      "id": 1,
+      "property_id": 1,
+      "client": "client1",
+      "agent": "agent1",
+      "status": "В процессе",
+      "date": "2024-02-01",
+      "amount": 5000000
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "property_id": 2,
+      "client": "client1",
+      "status": "Новая",
+      "date": "2024-02-10",
+      "comment": "Хочу посмотреть дом"
+    }
+  ]
+}

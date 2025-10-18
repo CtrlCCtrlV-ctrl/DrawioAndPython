@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "full_name": "Администратор Системы",
+      "created": "2024-01-01 12:00:00"
+    },
+    {
+      "username": "manager",
+      "password": "manager123",
+      "role": "manager",
+      "full_name": "Иванов Иван Иванович",
+      "created": "2024-01-01 12:00:00"
+    },
+    {
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "full_name": "Петров Петр Петрович",
+      "created": "2024-01-01 12:00:00"
+    },
+    {
+      "username": "testuser911",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:54:45"
+    },
+    {
+      "username": "testuser283",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:55:18"
+    },
+    {
+      "username": "testuser597",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:56:17"
+    },
+    {
+      "username": "testuser397",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:57:04"
+    },
+    {
+      "username": "testuser134",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:57:52"
+    },
+    {
+      "username": "testuser910",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 01:58:40"
+    },
+    {
+      "username": "testuser023",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:05:31"
+    },
+    {
+      "username": "testuser312",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:07:18"
+    },
+    {
+      "username": "testuser451",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:08:09"
+    },
+    {
+      "username": "testuser937",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:09:38"
+    },
+    {
+      "username": "testuser030",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:09:59"
+    },
+    {
+      "username": "testuser455",
+      "password": "test123",
+      "role": "manager",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:11:37"
+    }
+  ]
+}

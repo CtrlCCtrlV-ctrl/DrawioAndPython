@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Агентство Недвижимости" id="real-estate-agency-uml">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Система -->
+        <mxCell id="system-boundary" value="Система Агентства Недвижимости" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;verticalAlign=top;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="600" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Агент -->
+        <mxCell id="actor-agent" value="Агент (Риэлтор)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES -->
+        <!-- Базовый: Авторизация -->
+        <mxCell id="uc-auth" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- Администратор Use Cases -->
+        <mxCell id="uc-manage-users" value="Управление&lt;br&gt;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-reports" value="Просмотр отчетов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-properties" value="Управление&lt;br&gt;объектами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-deals" value="Управление&lt;br&gt;сделками" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-system-settings" value="Настройки&lt;br&gt;системы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Агент Use Cases -->
+        <mxCell id="uc-add-property" value="Добавление&lt;br&gt;объекта" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-edit-property" value="Редактирование&lt;br&gt;объекта" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-property" value="Поиск объектов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-deal" value="Создание сделки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-my-deals" value="Просмотр&lt;br&gt;своих сделок" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент Use Cases -->
+        <mxCell id="uc-registration" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-properties" value="Просмотр&lt;br&gt;объектов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-filters" value="Поиск по&lt;br&gt;фильтрам" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-request" value="Запрос на&lt;br&gt;просмотр" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-my-requests" value="Мои заявки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="130" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Вспомогательный Use Case -->
+        <mxCell id="uc-validate" value="Валидация данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="740" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОР -->
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-reports" edge="1" parent="1" source="actor-admin" target="uc-view-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-properties" edge="1" parent="1" source="actor-admin" target="uc-manage-properties">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-deals" edge="1" parent="1" source="actor-admin" target="uc-manage-deals">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-settings" edge="1" parent="1" source="actor-admin" target="uc-system-settings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АГЕНТ -->
+        <mxCell id="link-agent-add" edge="1" parent="1" source="actor-agent" target="uc-add-property">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-agent-edit" edge="1" parent="1" source="actor-agent" target="uc-edit-property">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-agent-search" edge="1" parent="1" source="actor-agent" target="uc-search-property">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-agent-create-deal" edge="1" parent="1" source="actor-agent" target="uc-create-deal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-agent-my-deals" edge="1" parent="1" source="actor-agent" target="uc-view-my-deals">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ КЛИЕНТ -->
+        <mxCell id="link-client-reg" edge="1" parent="1" source="actor-client" target="uc-registration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-view" edge="1" parent="1" source="actor-client" target="uc-view-properties">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-search" edge="1" parent="1" source="actor-client" target="uc-search-filters">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-request" edge="1" parent="1" source="actor-client" target="uc-view-request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-my-requests" edge="1" parent="1" source="actor-client" target="uc-my-requests">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include-auth-users" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uc-manage-users" target="uc-auth">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-validate-edit" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uc-edit-property" target="uc-validate">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-validate-add" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uc-add-property" target="uc-validate">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗИ EXTEND -->
+        <mxCell id="extend-deal-view" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uc-create-deal" target="uc-search-property">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="extend-request-view" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uc-view-request" target="uc-view-properties">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="560" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "full_name": "Администратор",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "instructor1",
+      "password": "instructor123",
+      "role": "instructor",
+      "full_name": "Петров Иван Сергеевич",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "student1",
+      "password": "student123",
+      "role": "student",
+      "full_name": "Иванова Мария Александровна",
+      "created": "2024-01-01"
+    }
+  ]
+}
