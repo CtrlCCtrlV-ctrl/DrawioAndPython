@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "cashier",
+      "password": "cashier123",
+      "role": "cashier",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "passenger",
+      "password": "pass123",
+      "role": "passenger",
+      "created": "2024-01-01"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2024-01-01",
+      "full_name": "Администратор Системы"
+    },
+    {
+      "username": "manager",
+      "password": "manager123",
+      "role": "manager",
+      "created": "2024-01-01",
+      "full_name": "Менеджер Отеля"
+    },
+    {
+      "username": "guest",
+      "password": "guest123",
+      "role": "guest",
+      "created": "2024-01-01",
+      "full_name": "Гость Тестовый"
+    }
+  ]
+}

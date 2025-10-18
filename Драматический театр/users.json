@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "full_name": "Администратор системы",
+      "created": "2024-01-15"
+    },
+    {
+      "username": "cashier",
+      "password": "cashier123",
+      "role": "cashier",
+      "full_name": "Иванова Мария",
+      "created": "2024-01-15"
+    },
+    {
+      "username": "visitor",
+      "password": "visitor123",
+      "role": "visitor",
+      "full_name": "Петров Иван",
+      "created": "2024-01-15"
+    }
+  ]
+}

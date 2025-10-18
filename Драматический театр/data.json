@@ -1,0 +1,141 @@
+{
+  "plays": [
+    {
+      "id": 1,
+      "title": "Гамлет",
+      "author": "Уильям Шекспир",
+      "genre": "Трагедия",
+      "duration": 180,
+      "description": "Классическая трагедия о принце датском"
+    },
+    {
+      "id": 2,
+      "title": "Вишнёвый сад",
+      "author": "А.П. Чехов",
+      "genre": "Драма",
+      "duration": 150,
+      "description": "Пьеса о судьбе русского дворянства"
+    },
+    {
+      "id": 3,
+      "title": "Ревизор",
+      "author": "Н.В. Гоголь",
+      "genre": "Комедия",
+      "duration": 120,
+      "description": "Сатирическая комедия о коррупции"
+    },
+    {
+      "id": 4,
+      "title": "Чайка",
+      "author": "А.П. Чехов",
+      "genre": "Драма",
+      "duration": 140,
+      "description": "Пьеса о судьбах творческих людей"
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "name": "Большой зал",
+      "capacity": 300
+    },
+    {
+      "id": 2,
+      "name": "Малый зал",
+      "capacity": 100
+    },
+    {
+      "id": 3,
+      "name": "Экспериментальный зал",
+      "capacity": 80
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "play_id": 1,
+      "hall_id": 1,
+      "date": "2024-02-15",
+      "time": "19:00",
+      "price": 1500,
+      "available_seats": 298
+    },
+    {
+      "id": 2,
+      "play_id": 2,
+      "hall_id": 2,
+      "date": "2024-02-16",
+      "time": "18:00",
+      "price": 1000,
+      "available_seats": 98
+    },
+    {
+      "id": 3,
+      "play_id": 3,
+      "hall_id": 3,
+      "date": "2024-02-17",
+      "time": "20:00",
+      "price": 800,
+      "available_seats": 80
+    },
+    {
+      "id": 4,
+      "play_id": 4,
+      "hall_id": 2,
+      "date": "2024-02-18",
+      "time": "19:30",
+      "price": 1200,
+      "available_seats": 100
+    },
+    {
+      "id": 5,
+      "play_id": 1,
+      "hall_id": 1,
+      "date": "2024-02-19",
+      "time": "19:00",
+      "price": 1500,
+      "available_seats": 300
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "event_id": 1,
+      "price": 1500,
+      "sold_by": "cashier",
+      "sold_date": "2024-02-14 14:30"
+    },
+    {
+      "id": 2,
+      "event_id": 1,
+      "price": 1500,
+      "sold_by": "cashier",
+      "sold_date": "2024-02-14 14:35"
+    },
+    {
+      "id": 3,
+      "event_id": 2,
+      "price": 1000,
+      "sold_by": "cashier",
+      "sold_date": "2024-02-14 15:00"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "event_id": 2,
+      "quantity": 2,
+      "user": "visitor",
+      "date": "2024-02-14 16:00",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "event_id": 3,
+      "quantity": 1,
+      "user": "visitor",
+      "date": "2024-02-14 16:15",
+      "status": "active"
+    }
+  ]
+}

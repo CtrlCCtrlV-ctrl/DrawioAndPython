@@ -1,0 +1,24 @@
+{
+  "vacancies": [
+    {
+      "id": 1,
+      "title": "Python разработчик",
+      "company": "ООО Рога и Копыта",
+      "employer": "employer1",
+      "salary": "100000-150000",
+      "description": "Разработка backend на Python/Django",
+      "category": "IT",
+      "status": "active",
+      "created": "2025-10-17 10:00:00"
+    }
+  ],
+  "applications": [],
+  "resumes": [],
+  "categories": [
+    "IT",
+    "Финансы",
+    "Продажи",
+    "Маркетинг",
+    "Производство"
+  ]
+}

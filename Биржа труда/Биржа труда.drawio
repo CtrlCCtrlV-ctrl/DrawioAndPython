@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Биржа труда" id="job-exchange-usecase">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Система -->
+        <mxCell id="system-boundary" value="Биржа труда" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="600" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        
+        <!-- Соискатель -->
+        <mxCell id="actor-jobseeker" value="Соискатель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="60" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Работодатель -->
+        <mxCell id="actor-employer" value="Работодатель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="60" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="960" y="350" width="60" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ СОИСКАТЕЛЯ -->
+        
+        <mxCell id="uc-login" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-vacancies" value="Просмотр вакансий" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-vacancies" value="Поиск вакансий" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-apply-vacancy" value="Откликнуться на вакансию" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-resume" value="Управление резюме" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-responses" value="Просмотр откликов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ РАБОТОДАТЕЛЯ -->
+        
+        <mxCell id="uc-post-vacancy" value="Публикация вакансии" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-vacancies" value="Управление вакансиями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-applicants" value="Просмотр кандидатов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-respond-applicant" value="Ответ кандидату" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-company-profile" value="Профиль компании" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        
+        <mxCell id="uc-manage-users" value="Управление пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-moderate-vacancies" value="Модерация вакансий" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-statistics" value="Просмотр статистики" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-categories" value="Управление категориями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-system-settings" value="Настройки системы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- ВСПОМОГАТЕЛЬНЫЕ USE CASES -->
+        
+        <mxCell id="uc-validate-data" value="Валидация данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-send-notification" value="Отправка уведомлений" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="620" width="140" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ СОИСКАТЕЛЯ -->
+        
+        <mxCell id="link-js-login" edge="1" parent="1" source="actor-jobseeker" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-js-view" edge="1" parent="1" source="actor-jobseeker" target="uc-view-vacancies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-js-search" edge="1" parent="1" source="actor-jobseeker" target="uc-search-vacancies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-js-apply" edge="1" parent="1" source="actor-jobseeker" target="uc-apply-vacancy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-js-resume" edge="1" parent="1" source="actor-jobseeker" target="uc-manage-resume">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-js-responses" edge="1" parent="1" source="actor-jobseeker" target="uc-view-responses">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ РАБОТОДАТЕЛЯ -->
+        
+        <mxCell id="link-emp-login" edge="1" parent="1" source="actor-employer" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-emp-post" edge="1" parent="1" source="actor-employer" target="uc-post-vacancy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-emp-manage" edge="1" parent="1" source="actor-employer" target="uc-manage-vacancies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-emp-applicants" edge="1" parent="1" source="actor-employer" target="uc-view-applicants">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-emp-respond" edge="1" parent="1" source="actor-employer" target="uc-respond-applicant">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-emp-profile" edge="1" parent="1" source="actor-employer" target="uc-company-profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОРА -->
+        
+        <mxCell id="link-admin-login" edge="1" parent="1" source="actor-admin" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-moderate" edge="1" parent="1" source="actor-admin" target="uc-moderate-vacancies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-stats" edge="1" parent="1" source="actor-admin" target="uc-view-statistics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-categories" edge="1" parent="1" source="actor-admin" target="uc-manage-categories">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-settings" edge="1" parent="1" source="actor-admin" target="uc-system-settings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        
+        <mxCell id="include-apply-validate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="uc-apply-vacancy" target="uc-validate-data">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-post-validate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;entryX=0;entryY=0;" edge="1" parent="1" source="uc-post-vacancy" target="uc-validate-data">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-respond-notify" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="uc-respond-applicant" target="uc-send-notification">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗИ EXTEND -->
+        
+        <mxCell id="extend-view-search" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="uc-search-vacancies" target="uc-view-vacancies">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="420" as="sourcePoint" />
+            <mxPoint x="640" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

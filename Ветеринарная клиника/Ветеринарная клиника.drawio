@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Ветеринарная клиника" id="vet-clinic-usecase-001">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Ветеринарная клиника" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="640" height="660" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Ветеринар -->
+        <mxCell id="actor-vet" value="Ветеринар" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ КЛИЕНТА -->
+        <mxCell id="uc-login" value="Войти в систему" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-pets" value="Просмотреть&#xa;своих животных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-add-pet" value="Зарегистрировать&#xa;животное" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-book-appointment" value="Записаться&#xa;на прием" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-history" value="Просмотреть&#xa;историю приемов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ ВЕТЕРИНАРА -->
+        <mxCell id="uc-view-appointments" value="Просмотреть&#xa;расписание приемов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-diagnosis" value="Создать диагноз" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-update-medical-card" value="Обновить&#xa;медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-prescribe-treatment" value="Назначить&#xa;лечение" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-all-pets" value="Просмотреть&#xa;всех животных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        <mxCell id="uc-manage-users" value="Управление&#xa;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-vets" value="Управление&#xa;ветеринарами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-reports" value="Просмотреть&#xa;отчеты" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-services" value="Управление&#xa;услугами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-backup-data" value="Резервное&#xa;копирование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- ВСПОМОГАТЕЛЬНЫЕ USE CASES -->
+        <mxCell id="uc-validate-auth" value="Проверить&#xa;права доступа" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-save-data" value="Сохранить&#xa;данные" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="120" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ КЛИЕНТ -->
+        <mxCell id="link-client-login" edge="1" parent="1" source="actor-client" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-view-pets" edge="1" parent="1" source="actor-client" target="uc-view-pets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-add-pet" edge="1" parent="1" source="actor-client" target="uc-add-pet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-book" edge="1" parent="1" source="actor-client" target="uc-book-appointment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-history" edge="1" parent="1" source="actor-client" target="uc-view-history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ ВЕТЕРИНАР -->
+        <mxCell id="link-vet-login" edge="1" parent="1" source="actor-vet" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-vet-appointments" edge="1" parent="1" source="actor-vet" target="uc-view-appointments">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-vet-diagnosis" edge="1" parent="1" source="actor-vet" target="uc-create-diagnosis">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-vet-medical" edge="1" parent="1" source="actor-vet" target="uc-update-medical-card">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-vet-treatment" edge="1" parent="1" source="actor-vet" target="uc-prescribe-treatment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-vet-all-pets" edge="1" parent="1" source="actor-vet" target="uc-view-all-pets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОР -->
+        <mxCell id="link-admin-login" edge="1" parent="1" source="actor-admin" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-vets" edge="1" parent="1" source="actor-admin" target="uc-manage-vets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-reports" edge="1" parent="1" source="actor-admin" target="uc-view-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-services" edge="1" parent="1" source="actor-admin" target="uc-manage-services">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-backup" edge="1" parent="1" source="actor-admin" target="uc-backup-data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- INCLUDE связи -->
+        <mxCell id="include-login-validate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-login" target="uc-validate-auth">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-add-pet-save" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-add-pet" target="uc-save-data">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-diagnosis-save" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-create-diagnosis" target="uc-save-data">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-backup-save" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-backup-data" target="uc-save-data">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- EXTEND связи -->
+        <mxCell id="extend-diagnosis-treatment" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;startSize=12;dashed=1;verticalAlign=bottom;endArrow=none;" edge="1" parent="1" source="uc-prescribe-treatment" target="uc-create-diagnosis">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="extend-view-pets-history" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;startSize=12;dashed=1;verticalAlign=bottom;endArrow=none;" edge="1" parent="1" source="uc-view-history" target="uc-view-pets">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

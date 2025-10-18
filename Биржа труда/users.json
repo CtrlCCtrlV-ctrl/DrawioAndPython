@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "created": "2025-10-17 10:00:00",
+      "full_name": "Администратор системы",
+      "email": "admin@jobexchange.com"
+    },
+    {
+      "username": "employer1",
+      "password": "emp123",
+      "role": "employer",
+      "created": "2025-10-17 10:00:00",
+      "full_name": "ООО Рога и Копыта",
+      "email": "hr@company.com",
+      "company": "ООО Рога и Копыта"
+    },
+    {
+      "username": "seeker1",
+      "password": "seek123",
+      "role": "jobseeker",
+      "created": "2025-10-17 10:00:00",
+      "full_name": "Иванов Иван Иванович",
+      "email": "ivanov@mail.com"
+    }
+  ]
+}

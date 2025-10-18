@@ -1,0 +1,73 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Оппенгеймер",
+      "genre": "Драма",
+      "duration": 180,
+      "rating": "16+"
+    },
+    {
+      "id": 2,
+      "title": "Барби",
+      "genre": "Комедия",
+      "duration": 114,
+      "rating": "12+"
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "name": "Зал 1",
+      "capacity": 100
+    },
+    {
+      "id": 2,
+      "name": "Зал 2",
+      "capacity": 150
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "movie_id": 1,
+      "hall_id": 1,
+      "datetime": "2024-12-15 19:00",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "movie_id": 2,
+      "hall_id": 2,
+      "datetime": "2024-12-15 21:00",
+      "price": 450
+    },
+    {
+      "id": 3,
+      "movie_id": 3,
+      "hall_id": 1,
+      "datetime": "2024-12-16 18:00",
+      "price": 550
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "session_id": 1,
+      "client_name": "client",
+      "quantity": 2,
+      "price": 1000,
+      "status": "booked",
+      "created": "2025-10-18 00:09:06"
+    },
+    {
+      "id": 2,
+      "session_id": 1,
+      "client_name": "client",
+      "quantity": 2,
+      "price": 1000,
+      "status": "booked",
+      "created": "2025-10-18 02:03:39"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+    "rooms": [
+      {
+        "id": "R001",
+        "number": "101",
+        "type": "Одноместный",
+        "price": 3000,
+        "status": "available",
+        "floor": 1,
+        "description": "Уютный одноместный номер с видом на город"
+      },
+      {
+        "id": "R002",
+        "number": "102",
+        "type": "Двухместный",
+        "price": 5000,
+        "status": "available",
+        "floor": 1,
+        "description": "Комфортный двухместный номер"
+      },
+      {
+        "id": "R003",
+        "number": "201",
+        "type": "Люкс",
+        "price": 10000,
+        "status": "occupied",
+        "floor": 2,
+        "description": "Роскошный номер люкс с джакузи"
+      },
+      {
+        "id": "R004",
+        "number": "202",
+        "type": "Двухместный",
+        "price": 5500,
+        "status": "available",
+        "floor": 2,
+        "description": "Просторный номер с балконом"
+      }
+    ],
+    "guests": [
+      {
+        "id": "G001",
+        "full_name": "Иванов Иван Иванович",
+        "passport": "1234 567890",
+        "phone": "+7 900 123-45-67",
+        "email": "ivanov@example.com",
+        "created": "2024-01-15"
+      },
+      {
+        "id": "G002",
+        "full_name": "Петрова Мария Сергеевна",
+        "passport": "2345 678901",
+        "phone": "+7 900 234-56-78",
+        "email": "petrova@example.com",
+        "created": "2024-01-16"
+      }
+    ],
+    "bookings": [
+      {
+        "id": "B001",
+        "room_id": "R003",
+        "guest_id": "G001",
+        "check_in": "2024-01-20",
+        "check_out": "2024-01-25",
+        "status": "confirmed",
+        "total_price": 50000,
+        "created": "2024-01-15",
+        "created_by": "manager"
+      },
+      {
+        "id": "B002",
+        "room_id": "R002",
+        "guest_id": "G002",
+        "check_in": "2024-01-22",
+        "check_out": "2024-01-24",
+        "status": "pending",
+        "total_price": 10000,
+        "created": "2024-01-16",
+        "created_by": "guest"
+      }
+    ]
+  }

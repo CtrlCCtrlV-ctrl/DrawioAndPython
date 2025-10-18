@@ -1,0 +1,43 @@
+{
+  "violations": [
+    {
+      "id": 1,
+      "car_number": "А123БВ777",
+      "type": "Превышение скорости",
+      "location": "ул. Ленина, д. 10",
+      "description": "Превышение на 20 км/ч",
+      "date": "2024-01-15 10:30:00",
+      "inspector": "inspector"
+    },
+    {
+      "id": 2,
+      "car_number": "В456ГД888",
+      "type": "Проезд на красный",
+      "location": "ул. Пушкина, д. 25",
+      "description": "Проезд на запрещающий сигнал светофора",
+      "date": "2024-01-16 14:20:00",
+      "inspector": "inspector"
+    }
+  ],
+  "fines": [
+    {
+      "id": 1,
+      "license_number": "77АА123456",
+      "amount": 5000.0,
+      "article": "12.9 КоАП РФ",
+      "date": "2024-01-15 10:35:00",
+      "status": "Не оплачен",
+      "inspector": "inspector"
+    },
+    {
+      "id": 2,
+      "license_number": "77ББ654321",
+      "amount": 3000.0,
+      "article": "12.12 КоАП РФ",
+      "date": "2024-01-16 14:25:00",
+      "status": "Оплачен",
+      "inspector": "inspector"
+    }
+  ],
+  "drivers": []
+}

@@ -1,0 +1,38 @@
+{
+  "accounts": [
+    {
+      "account_id": "ACC001",
+      "owner": "client1",
+      "balance": 10000.0,
+      "status": "active",
+      "created": "2024-01-01"
+    },
+    {
+      "account_id": "ACC002",
+      "owner": "client1",
+      "balance": 5000.0,
+      "status": "active",
+      "created": "2024-01-01"
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "TRX001",
+      "from_account": "SYSTEM",
+      "to_account": "ACC001",
+      "amount": 10000.0,
+      "date": "2024-01-01 10:00:00",
+      "type": "deposit",
+      "description": "Начальный депозит"
+    },
+    {
+      "transaction_id": "TRX002",
+      "from_account": "SYSTEM",
+      "to_account": "ACC002",
+      "amount": 5000.0,
+      "date": "2024-01-01 10:00:00",
+      "type": "deposit",
+      "description": "Начальный депозит"
+    }
+  ]
+}

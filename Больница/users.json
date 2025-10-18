@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "name": "Администратор Системы",
+      "created": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "username": "doctor1",
+      "password": "doctor123",
+      "role": "doctor",
+      "doctor_id": 1,
+      "name": "Иванов Иван Иванович",
+      "created": "2024-01-01"
+    },
+    {
+      "id": 3,
+      "username": "patient1",
+      "password": "patient123",
+      "role": "patient",
+      "patient_id": 1,
+      "name": "Петров Петр Петрович",
+      "created": "2024-01-01"
+    },
+    {
+      "id": 4,
+      "username": "test_user",
+      "password": "testpass123",
+      "role": "patient",
+      "name": "Тестовый Пользователь",
+      "created": "2025-10-18",
+      "patient_id": 2
+    }
+  ]
+}
