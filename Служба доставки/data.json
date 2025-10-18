@@ -1,0 +1,76 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "client_id": 3,
+      "client_name": "Мария Сидорова",
+      "courier_id": 2,
+      "courier_name": "Иван Петров",
+      "pickup_address": "ул. Ленина, д. 10",
+      "delivery_address": "пр. Победы, д. 25, кв. 12",
+      "status": "delivered",
+      "created": "2024-01-15 10:30:00",
+      "price": 450,
+      "description": "Документы"
+    },
+    {
+      "id": 2,
+      "client_id": 5,
+      "client_name": "Анна Кузнецова",
+      "courier_id": 4,
+      "courier_name": "Петр Иванов",
+      "pickup_address": "ул. Пушкина, д. 5",
+      "delivery_address": "ул. Гагарина, д. 15, кв. 8",
+      "status": "in_transit",
+      "created": "2024-01-16 14:20:00",
+      "price": 320,
+      "description": "Подарок для друга"
+    },
+    {
+      "id": 3,
+      "client_id": 3,
+      "client_name": "Мария Сидорова",
+      "courier_id": 2,
+      "courier_name": "Иван Петров",
+      "pickup_address": "пр. Мира, д. 20",
+      "delivery_address": "ул. Советская, д. 45",
+      "status": "pending",
+      "created": "2024-01-17 09:15:00",
+      "price": 280,
+      "description": "Книги и тетради"
+    },
+    {
+      "id": 4,
+      "client_id": 5,
+      "client_name": "Анна Кузнецова",
+      "courier_id": 4,
+      "courier_name": "Петр Иванов",
+      "pickup_address": "ул. Комсомольская, д. 12",
+      "delivery_address": "пр. Ленина, д. 8, офис 301",
+      "status": "cancelled",
+      "created": "2024-01-14 16:45:00",
+      "price": 500,
+      "description": "Бизнес документы"
+    }
+  ],
+  "tariffs": [
+    {
+      "id": 1,
+      "name": "Стандарт",
+      "price_per_km": 50,
+      "base_price": 200
+    },
+    {
+      "id": 2,
+      "name": "Экспресс",
+      "price_per_km": 80,
+      "base_price": 300
+    },
+    {
+      "id": 3,
+      "name": "Ночной",
+      "price_per_km": 100,
+      "base_price": 400
+    }
+  ]
+}

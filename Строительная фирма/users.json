@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "administrator",
+      "full_name": "Администратор системы",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "manager",
+      "password": "manager",
+      "role": "manager",
+      "full_name": "Иван Петров",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "client",
+      "password": "client",
+      "role": "client",
+      "full_name": "Петр Иванов",
+      "created": "2024-01-01"
+    }
+  ]
+}

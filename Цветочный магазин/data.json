@@ -1,0 +1,102 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "name": "Роза красная",
+      "price": 150,
+      "quantity": 50,
+      "supplier": "Флора ЛТД"
+    },
+    {
+      "id": 2,
+      "name": "Тюльпан желтый",
+      "price": 80,
+      "quantity": 100,
+      "supplier": "ЦветПром"
+    },
+    {
+      "id": 3,
+      "name": "Орхидея белая",
+      "price": 350,
+      "quantity": 30,
+      "supplier": "Флора ЛТД"
+    },
+    {
+      "id": 4,
+      "name": "Лилия белая",
+      "price": 200,
+      "quantity": 25,
+      "supplier": "ЦветПром"
+    },
+    {
+      "id": 5,
+      "name": "Гербера оранжевая",
+      "price": 120,
+      "quantity": 40,
+      "supplier": "Флора ЛТД"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "client": "Мария Сидорова",
+      "flowers": "Роза красная x3",
+      "total": 450,
+      "status": "Выполнен",
+      "date": "2024-01-15",
+      "created_by": "seller"
+    },
+    {
+      "id": 2,
+      "client": "Иван Иванов",
+      "flowers": "Тюльпан желтый x5",
+      "total": 400,
+      "status": "В обработке",
+      "date": "2024-01-20",
+      "created_by": "seller"
+    },
+    {
+      "id": 3,
+      "client": "Анна Петрова",
+      "flowers": "Орхидея белая x2",
+      "total": 700,
+      "status": "Выполнен",
+      "date": "2024-01-18",
+      "created_by": "client"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Мария Сидорова",
+      "phone": "+7(999)123-45-67",
+      "email": "maria@mail.ru"
+    },
+    {
+      "id": 2,
+      "name": "Иван Иванов",
+      "phone": "+7(999)765-43-21",
+      "email": "ivan@mail.ru"
+    },
+    {
+      "id": 3,
+      "name": "Анна Петрова",
+      "phone": "+7(999)555-66-77",
+      "email": "anna@mail.ru"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Флора ЛТД",
+      "phone": "+7(495)111-22-33",
+      "address": "Москва, ул. Цветочная, 10"
+    },
+    {
+      "id": 2,
+      "name": "ЦветПром",
+      "phone": "+7(495)444-55-66",
+      "address": "Москва, пр. Садовый, 25"
+    }
+  ]
+}

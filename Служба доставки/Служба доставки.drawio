@@ -1,0 +1,185 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Служба доставки" id="delivery-service-usecase">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Система Служба доставки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;verticalAlign=top;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="640" height="660" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="50" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Курьер -->
+        <mxCell id="actor-courier" value="Курьер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="50" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="980" y="380" width="50" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES - КЛИЕНТ -->
+        <mxCell id="uc-register" value="Регистрация&lt;br&gt;в системе" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-order" value="Создание&lt;br&gt;заказа" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-track-order" value="Отслеживание&lt;br&gt;заказа" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-history" value="Просмотр&lt;br&gt;истории заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-cancel-order" value="Отмена&lt;br&gt;заказа" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES - КУРЬЕР -->
+        <mxCell id="uc-view-assigned" value="Просмотр&lt;br&gt;назначенных&lt;br&gt;заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-update-status" value="Изменение&lt;br&gt;статуса&lt;br&gt;доставки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-route" value="Просмотр&lt;br&gt;маршрута" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-update-profile" value="Обновление&lt;br&gt;профиля" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES - АДМИНИСТРАТОР -->
+        <mxCell id="uc-manage-users" value="Управление&lt;br&gt;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-couriers" value="Управление&lt;br&gt;курьерами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-all-orders" value="Просмотр&lt;br&gt;всех заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-generate-reports" value="Генерация&lt;br&gt;отчетов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-tariffs" value="Управление&lt;br&gt;тарифами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASE - ОБЩИЙ (для include) -->
+        <mxCell id="uc-auth" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ - КЛИЕНТ -->
+        <mxCell id="link-client-register" edge="1" parent="1" source="actor-client" target="uc-register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-create" edge="1" parent="1" source="actor-client" target="uc-create-order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-track" edge="1" parent="1" source="actor-client" target="uc-track-order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-history" edge="1" parent="1" source="actor-client" target="uc-view-history">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-client-cancel" edge="1" parent="1" source="actor-client" target="uc-cancel-order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ - КУРЬЕР -->
+        <mxCell id="link-courier-assigned" edge="1" parent="1" source="actor-courier" target="uc-view-assigned">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-courier-status" edge="1" parent="1" source="actor-courier" target="uc-update-status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-courier-route" edge="1" parent="1" source="actor-courier" target="uc-view-route">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-courier-profile" edge="1" parent="1" source="actor-courier" target="uc-update-profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ - АДМИНИСТРАТОР -->
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-couriers" edge="1" parent="1" source="actor-admin" target="uc-manage-couriers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-orders" edge="1" parent="1" source="actor-admin" target="uc-view-all-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-reports" edge="1" parent="1" source="actor-admin" target="uc-generate-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="link-admin-tariffs" edge="1" parent="1" source="actor-admin" target="uc-manage-tariffs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include-create-auth" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uc-create-order" target="uc-auth">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-history-auth" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0;entryX=0;entryY=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uc-view-history" target="uc-auth">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-assigned-auth" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uc-view-assigned" target="uc-auth">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗЬ EXTEND -->
+        <mxCell id="extend-cancel-track" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uc-cancel-order" target="uc-track-order">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

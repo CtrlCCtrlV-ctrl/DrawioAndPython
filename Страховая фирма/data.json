@@ -1,0 +1,97 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "full_name": "Иванов Иван Иванович",
+      "passport": "1234 567890",
+      "phone": "+7 999 999-99-99",
+      "email": "ivanov@test.ru",
+      "address": "г. Москва",
+      "user_id": 3,
+      "created": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "full_name": "Петров Петр Петрович",
+      "passport": "9876 543210",
+      "phone": "+7 888 888-88-88",
+      "email": "petrov@test.ru",
+      "address": "г. Санкт-Петербург",
+      "user_id": 4,
+      "created": "2024-01-15"
+    }
+  ],
+  "insurance_types": [
+    {
+      "id": 1,
+      "name": "ОСАГО",
+      "description": "Обязательное страхование автогражданской ответственности",
+      "base_price": 5000
+    },
+    {
+      "id": 2,
+      "name": "КАСКО",
+      "description": "Добровольное автострахование",
+      "base_price": 25000
+    },
+    {
+      "id": 3,
+      "name": "ДМС",
+      "description": "Добровольное медицинское страхование",
+      "base_price": 15000
+    },
+    {
+      "id": 4,
+      "name": "Страхование жизни",
+      "description": "Накопительное страхование жизни",
+      "base_price": 20000
+    }
+  ],
+  "policies": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "insurance_type_id": 1,
+      "policy_number": "POL-2024-0001",
+      "start_date": "2024-01-01",
+      "end_date": "2025-01-01",
+      "price": 5000,
+      "status": "active",
+      "created_by": 2
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "insurance_type_id": 2,
+      "policy_number": "POL-2024-0002",
+      "start_date": "2024-02-01",
+      "end_date": "2025-02-01",
+      "price": 25000,
+      "status": "active",
+      "created_by": 2
+    },
+    {
+      "id": 3,
+      "client_id": 1,
+      "insurance_type_id": 1,
+      "policy_number": "POL-2025-0003",
+      "start_date": "2025-10-18",
+      "end_date": "2026-10-18",
+      "price": 5000,
+      "status": "active",
+      "created_by": 2
+    }
+  ],
+  "claims": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "policy_id": 1,
+      "description": "Авария на дороге",
+      "amount": 15000,
+      "status": "approved",
+      "created": "2024-03-01",
+      "processed_by": 2
+    }
+  ]
+}

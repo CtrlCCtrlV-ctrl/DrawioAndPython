@@ -1,0 +1,177 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Туристическая фирма" id="tourist-agency-usecase">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Информационная система&#xa;Туристическая фирма" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;verticalAlign=top;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="600" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Менеджер -->
+        <mxCell id="actor-manager" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="940" y="350" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES -->
+        
+        <!-- Общие -->
+        <mxCell id="uc-login" value="Войти в систему" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-logout" value="Выйти из системы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Администратор -->
+        <mxCell id="uc-manage-users" value="Управление&#xa;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-reports" value="Просмотр отчетов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-system" value="Настройка системы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-backup" value="Резервное&#xa;копирование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Менеджер -->
+        <mxCell id="uc-manage-tours" value="Управление турами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-clients" value="Управление&#xa;клиентами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-bookings" value="Управление&#xa;бронированиями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-confirm-booking" value="Подтверждение&#xa;бронирования" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-search-tours" value="Поиск туров" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="uc-view-tours" value="Просмотр туров" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="740" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-booking" value="Создать&#xa;бронирование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-my-bookings" value="Мои бронирования" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-cancel-booking" value="Отменить&#xa;бронирование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- Include/Extend связи -->
+        <mxCell id="uc-validate" value="Валидация данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АКТЕРОВ С USE CASES -->
+        
+        <!-- Администратор -->
+        <mxCell id="edge-admin-login" edge="1" parent="1" source="actor-admin" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-admin-reports" edge="1" parent="1" source="actor-admin" target="uc-view-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-admin-system" edge="1" parent="1" source="actor-admin" target="uc-manage-system">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-admin-backup" edge="1" parent="1" source="actor-admin" target="uc-backup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Менеджер -->
+        <mxCell id="edge-manager-login" edge="1" parent="1" source="actor-manager" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-manager-tours" edge="1" parent="1" source="actor-manager" target="uc-manage-tours">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-manager-clients" edge="1" parent="1" source="actor-manager" target="uc-manage-clients">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-manager-bookings" edge="1" parent="1" source="actor-manager" target="uc-manage-bookings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-manager-confirm" edge="1" parent="1" source="actor-manager" target="uc-confirm-booking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-manager-search" edge="1" parent="1" source="actor-manager" target="uc-search-tours">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="edge-client-login" edge="1" parent="1" source="actor-client" target="uc-login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-client-view" edge="1" parent="1" source="actor-client" target="uc-view-tours">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-client-create" edge="1" parent="1" source="actor-client" target="uc-create-booking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-client-mybookings" edge="1" parent="1" source="actor-client" target="uc-view-my-bookings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-client-cancel" edge="1" parent="1" source="actor-client" target="uc-cancel-booking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Include связи -->
+        <mxCell id="include1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;" edge="1" parent="1" source="uc-create-booking" target="uc-validate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;" edge="1" parent="1" source="uc-manage-tours" target="uc-validate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="include3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;" edge="1" parent="1" source="uc-manage-clients" target="uc-validate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Extend связь -->
+        <mxCell id="extend1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;dashed=1;" edge="1" parent="1" source="uc-search-tours" target="uc-view-tours">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

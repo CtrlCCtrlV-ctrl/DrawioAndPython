@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "full_name": "Администратор",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "seller",
+      "password": "seller123",
+      "role": "manager",
+      "full_name": "Иван Петров",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "full_name": "Мария Сидорова",
+      "created": "2024-01-01"
+    },
+    {
+      "username": "manager",
+      "password": "manager123",
+      "role": "manager",
+      "full_name": "Сергей Кузнецов",
+      "created": "2024-01-01"
+    }
+  ]
+}

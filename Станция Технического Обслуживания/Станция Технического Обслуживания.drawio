@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - СТО" id="sto-use-case-2024">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Информационная Система СТО" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="280" y="80" width="600" height="660" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="150" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Механик -->
+        <mxCell id="actor-mechanic" value="Механик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="120" y="380" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="120" y="600" width="40" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        <mxCell id="uc-manage-users" value="Управление&#xa;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-services" value="Управление&#xa;услугами" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="500" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-parts" value="Управление&#xa;запчастями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="680" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-all-orders" value="Просмотр всех&#xa;заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-reports" value="Генерация&#xa;отчетов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="500" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ МЕХАНИКА -->
+        <mxCell id="uc-view-orders" value="Просмотр&#xa;заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-update-status" value="Обновление&#xa;статуса заказа" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="500" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-add-works" value="Добавление&#xa;работ к заказу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-parts" value="Просмотр&#xa;запчастей" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-order-parts" value="Заказ&#xa;запчастей" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="500" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ КЛИЕНТА -->
+        <mxCell id="uc-auth" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-request" value="Создание&#xa;заявки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="500" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-my-orders" value="Просмотр&#xa;своих заказов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="680" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-services" value="Просмотр&#xa;услуг" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-price" value="Просмотр&#xa;стоимости" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="500" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- ОБЩИЕ USE CASES -->
+        <mxCell id="uc-validate" value="Валидация&#xa;данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-save-data" value="Сохранение&#xa;в БД" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОРА -->
+        <mxCell id="edge1" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="actor-admin" target="uc-manage-services">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="actor-admin" target="uc-manage-parts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="actor-admin" target="uc-view-all-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="actor-admin" target="uc-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ МЕХАНИКА -->
+        <mxCell id="edge6" edge="1" parent="1" source="actor-mechanic" target="uc-view-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="actor-mechanic" target="uc-update-status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="actor-mechanic" target="uc-add-works">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="actor-mechanic" target="uc-view-parts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="actor-mechanic" target="uc-order-parts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ КЛИЕНТА -->
+        <mxCell id="edge11" edge="1" parent="1" source="actor-client" target="uc-auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" edge="1" parent="1" source="actor-client" target="uc-create-request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" edge="1" parent="1" source="actor-client" target="uc-view-my-orders">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge14" edge="1" parent="1" source="actor-client" target="uc-view-services">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge15" edge="1" parent="1" source="actor-client" target="uc-view-price">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#666666;" edge="1" parent="1" source="uc-create-request" target="uc-validate">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0;entryX=0;entryY=1;strokeColor=#666666;" edge="1" parent="1" source="uc-update-status" target="uc-save-data">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0;strokeColor=#666666;" edge="1" parent="1" source="uc-manage-users" target="uc-save-data">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗИ EXTEND -->
+        <mxCell id="extend1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#999999;" edge="1" parent="1" source="uc-view-price" target="uc-view-services">
+          <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="extend2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#999999;" edge="1" parent="1" source="uc-order-parts" target="uc-view-parts">
+          <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

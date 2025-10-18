@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "name": "Администратор",
+      "created": "2024-12-17 10:00:00"
+    },
+    {
+      "username": "trainer1",
+      "password": "trainer123",
+      "role": "trainer",
+      "name": "Иван Петров",
+      "created": "2024-12-17 10:00:00"
+    },
+    {
+      "username": "client1",
+      "password": "client123",
+      "role": "client",
+      "name": "Мария Сидорова",
+      "created": "2024-12-17 10:00:00"
+    }
+  ]
+}

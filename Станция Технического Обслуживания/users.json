@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "administrator",
+      "full_name": "Администратор Системы",
+      "created": "2024-01-15 10:00:00"
+    },
+    {
+      "username": "mechanic",
+      "password": "mech123",
+      "role": "mechanic",
+      "full_name": "Иванов Иван",
+      "created": "2024-01-15 10:00:00"
+    },
+    {
+      "username": "client",
+      "password": "client123",
+      "role": "client",
+      "full_name": "Петров Петр",
+      "created": "2024-01-15 10:00:00"
+    },
+    {
+      "username": "testuser",
+      "password": "test123",
+      "role": "client",
+      "full_name": "Тестовый Пользователь",
+      "created": "2025-10-18 02:06:46"
+    }
+  ]
+}

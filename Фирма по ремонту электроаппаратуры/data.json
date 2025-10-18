@@ -1,0 +1,88 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "client": "Петров Петр",
+      "device": "Телевизор Samsung",
+      "description": "Не включается, мигает красный индикатор",
+      "phone": "+7-123-456-78-90",
+      "status": "Новый",
+      "date": "2025-01-15 10:30",
+      "cost": 0,
+      "parts_used": []
+    },
+    {
+      "id": 2,
+      "client": "Иванов Иван",
+      "device": "Холодильник LG",
+      "description": "Не морозит, компрессор не запускается",
+      "phone": "+7-987-654-32-10",
+      "status": "В работе",
+      "date": "2025-01-14 14:20",
+      "cost": 1500,
+      "parts_used": [
+        {
+          "id": 3,
+          "name": "Транзистор BC547",
+          "quantity": 1,
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "client": "Петров Петр",
+      "device": "Стиральная машина Bosch",
+      "description": "Протекает вода из-под дверцы",
+      "phone": "+7-123-456-78-90",
+      "status": "Готов",
+      "date": "2025-01-13 09:15",
+      "cost": 800,
+      "parts_used": [
+        {
+          "id": 1,
+          "name": "Конденсатор 100мкФ",
+          "quantity": 2,
+          "price": 15
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "Конденсатор 100мкФ",
+      "quantity": 48,
+      "price": 15
+    },
+    {
+      "id": 2,
+      "name": "Резистор 10кОм",
+      "quantity": 100,
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Транзистор BC547",
+      "quantity": 29,
+      "price": 25
+    },
+    {
+      "id": 4,
+      "name": "Микросхема NE555",
+      "quantity": 20,
+      "price": 45
+    },
+    {
+      "id": 5,
+      "name": "Предохранитель 5А",
+      "quantity": 75,
+      "price": 10
+    }
+  ],
+  "statistics": {
+    "total_orders": 3,
+    "completed_orders": 1,
+    "total_revenue": 2300
+  }
+}

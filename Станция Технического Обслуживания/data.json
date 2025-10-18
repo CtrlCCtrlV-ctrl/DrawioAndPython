@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Замена масла",
+      "price": 1500,
+      "duration": "30 мин"
+    },
+    {
+      "id": 2,
+      "name": "Диагностика двигателя",
+      "price": 2000,
+      "duration": "60 мин"
+    },
+    {
+      "id": 3,
+      "name": "Замена тормозных колодок",
+      "price": 3000,
+      "duration": "90 мин"
+    },
+    {
+      "id": 4,
+      "name": "Диагностика",
+      "price": 2000,
+      "duration": "60 мин"
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "Масло моторное 5W-40",
+      "price": 1200,
+      "quantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Фильтр масляный",
+      "price": 300,
+      "quantity": 20
+    },
+    {
+      "id": 3,
+      "name": "Тормозные колодки",
+      "price": 2500,
+      "quantity": 8
+    },
+    {
+      "id": 4,
+      "name": "Фильтр",
+      "price": 300,
+      "quantity": 15
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "client": "client",
+      "car": "Toyota Camry",
+      "service": "Замена масла",
+      "status": "В работе",
+      "mechanic": "mechanic",
+      "date": "2024-01-15",
+      "total": 1500
+    },
+    {
+      "id": 2,
+      "client": "client",
+      "car": "Honda Civic",
+      "service": "Диагностика",
+      "status": "В работе",
+      "mechanic": "mechanic",
+      "date": "2025-10-18",
+      "total": 2000
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "studios": [
+    {
+      "id": 1,
+      "name": "Студия А",
+      "area": 50,
+      "price_hour": 2000
+    },
+    {
+      "id": 2,
+      "name": "Студия B",
+      "area": 30,
+      "price_hour": 1500
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1,
+      "name": "Canon EOS R5",
+      "type": "Камера",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Софтбокс 120см",
+      "type": "Свет",
+      "available": true
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "client": "client",
+      "photographer": "photographer",
+      "studio_id": 1,
+      "date": "2024-02-15",
+      "time": "14:00",
+      "duration": 2,
+      "status": "Завершена",
+      "paid": false
+    }
+  ],
+  "tariffs": [
+    {
+      "id": 1,
+      "name": "Базовый",
+      "duration": 1,
+      "price": 3000,
+      "photos": 10
+    },
+    {
+      "id": 2,
+      "name": "Стандарт",
+      "duration": 2,
+      "price": 5000,
+      "photos": 30
+    }
+  ]
+}

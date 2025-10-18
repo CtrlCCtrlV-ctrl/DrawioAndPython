@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" version="28.2.7">
+  <diagram name="Use Case - Страховая фирма" id="insurance-system-usecase">
+    <mxGraphModel dx="1617" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Граница системы -->
+        <mxCell id="system-boundary" value="Страховая фирма" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;verticalAlign=top;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="640" height="640" as="geometry" />
+        </mxCell>
+        
+        <!-- АКТЕРЫ -->
+        <!-- Администратор -->
+        <mxCell id="actor-admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="60" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Менеджер -->
+        <mxCell id="actor-manager" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="350" width="60" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Клиент -->
+        <mxCell id="actor-client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="60" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ АДМИНИСТРАТОРА -->
+        <mxCell id="uc-manage-users" value="Управление&lt;br&gt;пользователями" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-manage-types" value="Управление типами&lt;br&gt;страхования" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-all" value="Просмотр всех&lt;br&gt;данных системы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-reports" value="Генерация&lt;br&gt;отчетов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-backup" value="Резервное&lt;br&gt;копирование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ МЕНЕДЖЕРА -->
+        <mxCell id="uc-register-client" value="Регистрация&lt;br&gt;клиентов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-create-policy" value="Создание&lt;br&gt;полисов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-process-claims" value="Обработка&lt;br&gt;заявок" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-view-clients" value="Просмотр&lt;br&gt;информации о клиентах" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-calculate" value="Расчет стоимости&lt;br&gt;страхования" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- USE CASES ДЛЯ КЛИЕНТА -->
+        <mxCell id="uc-view-policies" value="Просмотр своих&lt;br&gt;полисов" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-submit-claim" value="Подача заявки&lt;br&gt;на страхование" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-check-status" value="Просмотр статуса&lt;br&gt;заявок" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="700" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="uc-update-profile" value="Обновление&lt;br&gt;личных данных" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        
+        <!-- БАЗОВЫЕ USE CASES -->
+        <mxCell id="uc-login" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ АДМИНИСТРАТОРА -->
+        <mxCell id="link-admin-users" edge="1" parent="1" source="actor-admin" target="uc-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-types" edge="1" parent="1" source="actor-admin" target="uc-manage-types">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-viewall" edge="1" parent="1" source="actor-admin" target="uc-view-all">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-reports" edge="1" parent="1" source="actor-admin" target="uc-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-admin-backup" edge="1" parent="1" source="actor-admin" target="uc-backup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ МЕНЕДЖЕРА -->
+        <mxCell id="link-manager-register" edge="1" parent="1" source="actor-manager" target="uc-register-client">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-manager-policy" edge="1" parent="1" source="actor-manager" target="uc-create-policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-manager-claims" edge="1" parent="1" source="actor-manager" target="uc-process-claims">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-manager-viewclients" edge="1" parent="1" source="actor-manager" target="uc-view-clients">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-manager-calculate" edge="1" parent="1" source="actor-manager" target="uc-calculate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ КЛИЕНТА -->
+        <mxCell id="link-client-policies" edge="1" parent="1" source="actor-client" target="uc-view-policies">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-submit" edge="1" parent="1" source="actor-client" target="uc-submit-claim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-status" edge="1" parent="1" source="actor-client" target="uc-check-status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-client-update" edge="1" parent="1" source="actor-client" target="uc-update-profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- СВЯЗИ INCLUDE -->
+        <mxCell id="include-admin-login" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-manage-users" target="uc-login">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-manager-login" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-create-policy" target="uc-login">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="include-client-login" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;" edge="1" parent="1" source="uc-view-policies" target="uc-login">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- СВЯЗЬ EXTEND -->
+        <mxCell id="extend-calculate-policy" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=top;" edge="1" parent="1" source="uc-calculate" target="uc-create-policy">
+          <mxGeometry x="0.2" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

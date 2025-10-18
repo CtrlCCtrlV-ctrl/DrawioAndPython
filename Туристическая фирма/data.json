@@ -1,0 +1,106 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "Египет - Хургада",
+      "country": "Египет",
+      "duration": 7,
+      "price": 45000,
+      "description": "Пляжный отдых на Красном море",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Турция - Анталия",
+      "country": "Турция",
+      "duration": 10,
+      "price": 55000,
+      "description": "All inclusive на средиземноморском побережье",
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Греция - Крит",
+      "country": "Греция",
+      "duration": 8,
+      "price": 65000,
+      "description": "Отдых на острове Крит",
+      "available": true
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "full_name": "Петров Петр Петрович",
+      "phone": "+7-900-123-45-67",
+      "email": "petrov@mail.ru",
+      "passport": "1234 567890",
+      "username": "client"
+    },
+    {
+      "id": 2,
+      "full_name": "Иванова Мария Ивановна",
+      "phone": "+7-900-987-65-43",
+      "email": "ivanova@mail.ru",
+      "passport": "9876 543210",
+      "username": "client"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "tour_id": 1,
+      "client_id": 1,
+      "client_username": "client",
+      "booking_date": "2024-01-15",
+      "travel_date": "2024-02-20",
+      "persons": 2,
+      "total_price": 90000,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "tour_id": 2,
+      "client_id": 2,
+      "client_username": "client",
+      "booking_date": "2024-01-16",
+      "travel_date": "2024-03-15",
+      "persons": 1,
+      "total_price": 55000,
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "tour_id": 1,
+      "client_id": 1,
+      "client_username": "client",
+      "booking_date": "2024-01-20",
+      "travel_date": "2024-03-15",
+      "persons": 2,
+      "total_price": 90000,
+      "status": "cancelled"
+    },
+    {
+      "id": 4,
+      "tour_id": 1,
+      "client_id": 1,
+      "client_username": "client",
+      "booking_date": "2024-01-20",
+      "travel_date": "2024-03-15",
+      "persons": 2,
+      "total_price": 90000,
+      "status": "cancelled"
+    },
+    {
+      "id": 5,
+      "tour_id": 1,
+      "client_id": 1,
+      "client_username": "client",
+      "booking_date": "2024-01-20",
+      "travel_date": "2024-03-15",
+      "persons": 2,
+      "total_price": 90000,
+      "status": "cancelled"
+    }
+  ]
+}
